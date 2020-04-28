@@ -43,7 +43,13 @@ print ("""
 	==================DETECT URL==================
 	==============================================
 
-	
+	DISCLAIMER: Esta herramienta fue diseñada con el propósito de contribuir
+	en el proceso de automatización de la descarga de libros PDF publicados
+	por la editorial STINGER. En ningún caso fue pensada como una herramienta
+	maliciosa.
+
+	Considere que una vez que obtenga las URL limpias en un archivo de texto
+	deberá hacer uso de wget -i archivoConUrl.txt para descargarlas.
 	""")
 
 try:
